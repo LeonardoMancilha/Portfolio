@@ -1,221 +1,333 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Conheça o portfólio de Leonardo Machado, um desenvolvedor Frontend com experiência em HTML, CSS, JavaScript e projetos criativos. Veja seus trabalhos e entre em contato para colaborações.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Conheça o portfólio de Leonardo Machado, um desenvolvedor Frontend com experiência em HTML, CSS, JavaScript e projetos criativos. Veja seus trabalhos e entre em contato para colaborações."
+    />
+    <link rel="icon" href="./src/image/icon.png" type="image/x-icon" />
+    <title>Portfólio // Leonardo Machado</title>
+    <link
+      rel="preload"
+      href="./src/css/style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="./src/css/style.css" />
+    </noscript>
 
-  <link rel="icon" href="./src/image/icon.png" type="image/x-icon" />
-  <title>Portfólio // Leonardo Machado</title>
-  <link rel="stylesheet" href="./src/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-    rel="stylesheet" />
-</head>
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-container">
-        <div class="header__logo-img-cont">
-          <img src="./src/image/me.jpg" alt="Leonardo Machado Logo Image" class="header__logo-img" />
-        </div>
-        <span class="header__logo-sub">Leonardo Machado</span>
-      </div>
-      <div class="header__main">
-        <ul class="header__links">
-          <li class="header__link-wrapper">
-            <a href="./" class="header__link">Home</a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./#sobre" class="header__link">Sobre</a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./#projetos" class="header__link">Projetos</a>
-          </li>
-        </ul>
-        <div class="header__main-ham-menu-cont">
-          <img src="./src/image/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./src/image/ham-menu-close.svg" alt="hamburger menu close"
-            class="header__main-ham-menu-close d-none" />
-        </div>
-      </div>
-    </div>
-    <div class="header__sm-menu">
-      <div class="header__sm-menu-content">
-        <ul class="header__sm-menu-links">
-          <li class="header__sm-menu-link">
-            <a href="./">Home</a>
-          </li>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      />
+    </noscript>
+    <link
+      rel="preload"
+      as="image"
+      href="src/image/common-bg.svg"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__content">
+        <section class="header__logo-container">
+          <section class="header__logo-img-cont">
+            <img
+              src="./src/image/me.avif"
+              alt="Leonardo Machado Logo Image"
+              class="header__logo-img"
+            />
+          </section>
+          <span class="header__logo-sub">Leonardo Machado</span>
+        </section>
+        <section class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./#sobre" class="header__link">Sobre</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./#projetos" class="header__link">Projetos</a>
+            </li>
+          </ul>
+          <section class="header__main-ham-menu-cont">
+            <img
+              src="./src/image/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./src/image/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </section>
+        </section>
+      </section>
+      <section class="header__sm-menu">
+        <section class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./">Home</a>
+            </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./#sobre">Sobre</a>
-          </li>
+            <li class="header__sm-menu-link">
+              <a href="./#sobre">Sobre</a>
+            </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./#projetos">Projetos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <section class="home-hero">
-    <div class="home-hero__content">
-      <h1 class="heading-primary">Desenvolvedor Frontend</h1>
-      <div class="home-hero__cta">
-        <a href="./#projetos" class="btn btn--bg">Projetos</a>
-      </div>
-    </div>
-    <div class="home-hero__socials">
-      <div class="home-hero__social">
-        <a href="https://www.linkedin.com/in/leonardommachado/" class="home-hero__social-icon-link" rel="noreferrer"
-          target="_blank">
-          <img src="./src/image/linkedin-dark.svg" alt="Leonardo Machado Linkedin Profile"
-            class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="https://github.com/LeonardoMancilha?tab=repositories" class="home-hero__social-icon-link"
-          rel="noreferrer" target="_blank">
-          <img src="./src/image/github-dark.svg" alt="Leonardo Machado Github Profile" class="home-hero__social-icon" />
-        </a>
-      </div>
-      <div class="home-hero__social">
-        <a href="mailto:leonardomachadomancilha@gmail.com?subject=Leonardo,%20podemos%20marcar%20um%20bate%20papo%3F"
-          class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
-          <img src="./src/image/email.svg" alt="Leonardo Machado Email" class="home-hero__social-icon" />
-        </a>
-      </div>
-    </div>
-    <div class="home-hero__mouse-scroll-cont">
-      <div class="mouse"></div>
-    </div>
-  </section>
-  <section id="sobre" class="about sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main">Sobre mim</span>
-      </h2>
-      <div class="about__content">
-        <div class="about__content-main">
-          <div class="about__content-details">
-            <p class="about__content-details-para">
-              Estudante de Inglês em constante aprimoramento, focado no desenvolvimento Front-end através do curso da Origamid, 
-              resolvendo desafios e construindo projetos práticos para ganhar experiência. 
-              Engajado em <strong>resolver desafios de código no LeetCode</strong>, 
-              <strong>implementando testes em Jest</strong> e ampliando minhas habilidades técnicas, 
-              enquanto compartilho meu aprendizado em um repositório de estudos no GitHub.
+            <li class="header__sm-menu-link">
+              <a href="./#projetos">Projetos</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </header>
+    <section class="home-hero">
+      <section class="home-hero__content">
+        <h1 class="heading-primary">Desenvolvedor Frontend</h1>
+        <section class="home-hero__cta">
+          <a href="./#projetos" class="btn btn--bg">Projetos</a>
+        </section>
+      </section>
+      <section class="home-hero__socials">
+        <section class="home-hero__social">
+          <a
+            href="https://www.linkedin.com/in/leonardommachado/"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./src/image/linkedin-dark.svg"
+              alt="Leonardo Machado Linkedin Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </section>
+        <section class="home-hero__social">
+          <a
+            href="https://github.com/LeonardoMancilha?tab=repositories"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./src/image/github-dark.svg"
+              alt="Leonardo Machado Github Profile"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </section>
+        <section class="home-hero__social">
+          <a
+            href="mailto:leonardomachadomancilha@gmail.com?subject=Leonardo,%20podemos%20marcar%20um%20bate%20papo%3F"
+            class="home-hero__social-icon-link"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src="./src/image/email.svg"
+              alt="Leonardo Machado Email"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </section>
+      </section>
+      <section class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </section>
+    </section>
+    <section id="sobre" class="about sec-pad">
+      <section class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Sobre mim</span>
+        </h2>
+        <article class="about__content">
+          <section class="about__content-main">
+            <section class="about__content-details">
+              <p class="about__content-details-para">
+                Estudante de Inglês em constante aprimoramento, focado no
+                desenvolvimento Front-end através do curso da Origamid,
+                resolvendo desafios e construindo projetos práticos para ganhar
+                experiência. Engajado em
+                <strong>resolver desafios de código no LeetCode</strong>,
+                <strong>implementando testes em Jest</strong> e ampliando minhas
+                habilidades técnicas, enquanto compartilho meu aprendizado em um
+                repositório de estudos no GitHub.
+              </p>
+              <p class="about__content-details-para">
+                Adquiri conhecimento básico em backend usando
+                <strong>PHP, MySQL e Bootstrap</strong> durante o curso técnico.
+                Participei de um projeto fullstack desenvolvendo um programa em
+                PHP para controle de estacionamento
+                <a
+                  href="https://github.com/LeonardoMancilha/Banco-de-Dados-Estacionamento"
+                  target="_blank"
+                  >[Link]</a
+                >. Minha contribuição envolveu automação de processos,
+                demonstrando entendimento prático das tecnologias.
+              </p>
+              <p class="about__content-details-para">
+                Colaborei com outros desenvolvedores em projetos de Frontend,
+                aprimorando
+                <strong>habilidades de trabalho em equipe e comunicação</strong
+                >. Estou avançando no estudo de JavaScript e pretendo explorar
+                ReactJS, TypeScript, SASS e Next.js.
+              </p>
+            </section>
+          </section>
+          <section class="about__content-skills">
+            <h3 class="about__content-title">Hard Skills</h3>
+            <section class="skills">
+              <section class="skills__skill">HTML</section>
+              <section class="skills__skill">CSS</section>
+              <section class="skills__skill">JavaScript</section>
+              <section class="skills__skill">Bootstrap</section>
+              <section class="skills__skill">MySQL</section>
+              <section class="skills__skill">PHP</section>
+              <section class="skills__skill">GIT</section>
+              <section class="skills__skill">GitHub</section>
+            </section>
+          </section>
+        </article>
+      </section>
+    </section>
+    <section id="projetos" class="projects sec-pad">
+      <section class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projetos</span>
+        </h2>
 
-            </p>
-            <p class="about__content-details-para">
-              Adquiri conhecimento básico em backend usando <strong>PHP, MySQL e Bootstrap</strong> durante o curso técnico. 
-              Participei de um projeto fullstack desenvolvendo um programa em PHP para controle de estacionamento 
-              <a href="https://github.com/LeonardoMancilha/Banco-de-Dados-Estacionamento" target="_blank">[Link]</a>. 
-              Minha contribuição envolveu automação de processos, demonstrando entendimento prático das tecnologias.
-
-            </p>
-            <p class="about__content-details-para">
-              Colaborei com outros desenvolvedores em projetos de Frontend, 
-              aprimorando <strong>habilidades de trabalho em equipe e comunicação</strong>. 
-              Estou avançando no estudo de JavaScript e pretendo explorar ReactJS, TypeScript, SASS e Next.js.
-
-            </p>
-          </div>
-        </div>
-        <div class="about__content-skills">
-          <h3 class="about__content-title">Hard Skills</h3>
-          <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">Bootstrap</div>
-            <div class="skills__skill">MySQL</div>
-            <div class="skills__skill">PHP</div>
-            <div class="skills__skill">GIT</div>
-            <div class="skills__skill">GitHub</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="projetos" class="projects sec-pad">
-    <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-bg">
-        <span class="heading-sec__main">Projetos</span>
-      </h2>
-
-      <div class="projects__content">
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./src/image/e-commerce.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">E-Commerce</h3>
-            <p class="projects__row-content-desc">
-              Desenvolvi um robusto sistema de Ecommerce utilizando HTML, CSS e JavaScript. Este projeto apresenta uma
-              interface intuitiva e responsiva, permitindo aos usuários uma experiência de compra fluida e agradável.
-
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr'
-              href='https://github.com/LeonardoMancilha/Interactive-card-details-form' target='_blank'>Repositório</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./src/image/landingpage.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Landing Page</h3>
-            <p class="projects__row-content-desc">
-              Criei uma Landing Page focada em conversão, utilizando HTML e CSS. A página inclui elementos como copy
-              persuasivo, formulário intuitivo e Call to Action (CTA) impactante. O objetivo era gerar leads
-              qualificados para uma campanha fictícia, resultando em uma experiência envolvente e taxas de conversão
-              positivas.
-
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr' href='https://github.com/LeonardoMancilha/Landing-Page'
-              target='_blank'>Repositório</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./src/image/interactive-card-details-form.png" alt="Software Screenshot" class="projects__row-img"
-              loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Interactive Card Details Form</h3>
-            <p class="projects__row-content-desc">
-              Neste projeto, explorei e apliquei habilidades aprendidas no curso de CSS Posicionamento da Origamid para
-              criar um formulário interativo de detalhes de cartão. Este desafio foi uma oportunidade valiosa para
-              aprimorar minhas habilidades de design e desenvolvimento web.
-
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr'
-              href='https://github.com/LeonardoMancilha/Interactive-card-details-form' target='_blank'>Repositório</a>
-          </div>
-        </div>
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img src="./src/image/musicplayer.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Music Player</h3>
-            <p class="projects__row-content-desc">
-              Essa aplicação é um player de música simples que reproduz uma lista de músicas em sequência. Ele utiliza
-              recursos do DOM para controlar os elementos HTML e do áudio para reproduzir as músicas.
-
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr' href='https://github.com/LeonardoMancilha/music-player'
-              target='_blank'>Repositório</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p>Made by <a href="https://github.com/LeonardoMancilha" target="_blank">Leonardo Machado</a></p>
-  </footer>
-  <script src="./src/js/index.js"></script>
-</body>
+        <section class="projects__content">
+          <section class="projects__row">
+            <section class="projects__row-img-cont">
+              <img
+                src="./src/image/e-commerce.avif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </section>
+            <section class="projects__row-content">
+              <h3 class="projects__row-content-title">E-Commerce</h3>
+              <p class="projects__row-content-desc">
+                Desenvolvi um robusto sistema de Ecommerce utilizando HTML, CSS
+                e JavaScript. Este projeto apresenta uma interface intuitiva e
+                responsiva, permitindo aos usuários uma experiência de compra
+                fluida e agradável.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://github.com/LeonardoMancilha/Interactive-card-details-form"
+                target="_blank"
+                >Repositório</a
+              >
+            </section>
+          </section>
+          <section class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./src/image/landingpage.avif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <section class="projects__row-content">
+              <h3 class="projects__row-content-title">Landing Page</h3>
+              <p class="projects__row-content-desc">
+                Criei uma Landing Page focada em conversão, utilizando HTML e
+                CSS. A página inclui elementos como copy persuasivo, formulário
+                intuitivo e Call to Action (CTA) impactante. O objetivo era
+                gerar leads qualificados para uma campanha fictícia, resultando
+                em uma experiência envolvente e taxas de conversão positivas.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://github.com/LeonardoMancilha/Landing-Page"
+                target="_blank"
+                >Repositório</a
+              >
+            </section>
+          </section>
+          <section class="projects__row">
+            <section class="projects__row-img-cont">
+              <img
+                src="./src/image/interactive-card-details-form.avif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </section>
+            <section class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Interactive Card Details Form
+              </h3>
+              <p class="projects__row-content-desc">
+                Neste projeto, explorei e apliquei habilidades aprendidas no
+                curso de CSS Posicionamento da Origamid para criar um formulário
+                interativo de detalhes de cartão. Este desafio foi uma
+                oportunidade valiosa para aprimorar minhas habilidades de design
+                e desenvolvimento web.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://github.com/LeonardoMancilha/Interactive-card-details-form"
+                target="_blank"
+                >Repositório</a
+              >
+            </section>
+          </section>
+          <section class="projects__row">
+            <section class="projects__row-img-cont">
+              <img
+                src="./src/image/musicplayer.avif"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </section>
+            <section class="projects__row-content">
+              <h3 class="projects__row-content-title">Music Player</h3>
+              <p class="projects__row-content-desc">
+                Essa aplicação é um player de música simples que reproduz uma
+                lista de músicas em sequência. Ele utiliza recursos do DOM para
+                controlar os elementos HTML e do áudio para reproduzir as
+                músicas.
+              </p>
+              <a
+                class="btn btn--med btn--theme dynamicBgClr"
+                href="https://github.com/LeonardoMancilha/music-player"
+                target="_blank"
+                >Repositório</a
+              >
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <footer>
+      <p>
+        Made by
+        <a href="https://github.com/LeonardoMancilha" target="_blank"
+          >Leonardo Machado</a
+        >
+      </p>
+    </footer>
+    <script src="./src/js/index.js"></script>
+  </body>
 </html>

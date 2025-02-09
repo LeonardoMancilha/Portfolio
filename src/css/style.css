@@ -12,32 +12,13 @@ html {
   scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 56.25em) {
-  html {
-    font-size: 56%;
-  }
-}
-
-@media only screen and (min-width: 112.5em) {
-  html {
-    font-size: 65%;
-  }
-}
-
-@media only screen and (max-width: 75em) {
-  html {
-    font-size: 59%;
-  }
-}
-
 body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -178,8 +159,6 @@ li {
   opacity: 0;
   transition: all 0.3s;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .header__sm-menu--active {
@@ -306,7 +285,7 @@ button {
 }
 
 .heading-sec__main::after {
-  content: '';
+  content: "";
   position: absolute;
   top: calc(100% + 1.5rem);
   height: 5px;
@@ -393,20 +372,20 @@ button {
 
 @keyframes wheel {
   to {
-      opacity: 0;
-      top: 27px
+    opacity: 0;
+    top: 27px;
   }
 }
 
 @-webkit-keyframes wheel {
   to {
-      opacity: 0;
-      top: 27px
+    opacity: 0;
+    top: 27px;
   }
 }
 
 .mouse::before {
-  content: '';
+  content: "";
   width: 5px;
   height: 5px;
   position: absolute;
@@ -422,7 +401,12 @@ button {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../image/common-bg.svg);
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url('../image/common-bg.svg');
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -644,7 +628,11 @@ button {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
     url(../image/common-bg.svg);
   background-size: cover;
   background-position: center;
@@ -770,7 +758,7 @@ button {
 }
 
 footer {
-  background-color: #f8f9fa;
+  background-color: #d6d8db;
   padding: 20px 0;
   text-align: center;
 }
@@ -781,6 +769,6 @@ footer p {
 }
 
 footer a {
-  color: #007bff;
+  color: #0056b3;
   text-decoration: none;
 }
