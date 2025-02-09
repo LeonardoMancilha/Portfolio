@@ -253,7 +253,6 @@ button {
   letter-spacing: 3px;
   text-align: center;
   color: #111;
-  font-weight: 800;
 }
 
 @media only screen and (max-width: 37.5em) {
