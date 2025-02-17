@@ -335,6 +335,7 @@ button {
 .btn--theme {
   background: #7843e9;
   color: #fff;
+  margin: 10px;
 }
 
 .btn--theme-inv {
