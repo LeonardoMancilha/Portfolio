@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: inherit;
 }
 
 html {
@@ -42,7 +41,7 @@ li {
 .header__content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem 5rem;
 }
 
@@ -405,7 +404,7 @@ button {
       rgba(245, 245, 245, 0.8),
       rgba(245, 245, 245, 0.8)
     ),
-    url('../image/common-bg.svg');
+    url("../image/common-bg.svg");
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -757,7 +756,7 @@ button {
 }
 
 footer {
-  background-color: #d6d8db;
+  background-color: #fff;
   padding: 20px 0;
   text-align: center;
 }
