@@ -35,3 +35,15 @@ const headerLogoConatiner = document.querySelector(".header__logo-container");
 headerLogoConatiner.addEventListener("click", () => {
   location.href = "/";
 });
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'd' || event.key === 'D') {
+    document.body.classList.add('dark-mode');
+    document.body.classList.remove('light-mode');
+  }
+
+  if (event.key === 'l' || event.key === 'L') {
+    document.body.classList.add('light-mode');
+    document.body.classList.remove('dark-mode');
+  }
+});
