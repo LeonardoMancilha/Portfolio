@@ -18,9 +18,9 @@ Sou **Desenvolvedor Frontend** com foco em criar interfaces modernas, acessívei
 
 ## 🛠️ Tecnologias principais:
 
-- **HTML5**: Estruturação semântica e acessível  
-- **CSS3**: Layouts responsivos e estilização moderna  
-- **JavaScript (ES6+)**: Interatividade e lógica de aplicações  
+- **HTML**: Estruturação semântica e acessível  
+- **CSS**: Layouts responsivos e estilização moderna  
+- **JavaScript**: Interatividade e lógica de aplicações  
 - **React**: Componentização e renderização eficiente  
 - **Jest**: Testes unitários para maior confiabilidade  
 - **Boas práticas de SEO e performance**: Lighthouse 100/100  
