@@ -24,11 +24,13 @@ body {
 .dark-mode {
   background-color: #121212;
   color: #ffffff;
+  transition: 1s ease;
 }
 
 .light-mode {
   background-color: #ffffff;
   color: #121212;
+  transition: 1s ease;
 }
 
 a {
