@@ -1,22 +1,47 @@
-# 💼 Portfólio - Leonardo Machado  
+# 💼 Portfólio - Leonardo Mancilha Machado
 
-Bem-vindo ao meu portfólio! Sou um **Desenvolvedor Frontend** apaixonado por criar experiências interativas e responsivas na web. Possuo experiência em **HTML, CSS, JavaScript e React**, sempre focando em boas práticas de desenvolvimento, SEO e performance.  
+Seja bem-vindo(a) ao meu portfólio!
 
-## 🚀 O que você encontrará aqui?  
-🔹 Projetos interativos com foco em design responsivo e boas práticas de desenvolvimento.  
-🔹 Aplicações web dinâmicas e otimizadas para performance e acessibilidade.  
-🔹 Desafios resolvidos com foco em **código limpo e eficiente**.  
-🔹 **Testes automatizados** garantindo a qualidade das aplicações.  
+Sou **Desenvolvedor Frontend** com foco em criar interfaces modernas, acessíveis e performáticas usando **HTML, CSS, JavaScript e React**. Busco sempre aplicar boas práticas, testes automatizados e otimizações reais de SEO e performance.
 
-## 📌 Tecnologias principais  
-✅ **HTML5** - Estruturação semântica e acessível  
-✅ **CSS3** - Estilização avançada e layouts responsivos  
-✅ **JavaScript** - Manipulação do DOM e interatividade  
-✅ **React.js** - Desenvolvimento de interfaces modernas e componentizadas.  
-✅ **SEO & Performance** - Técnicas para melhorar carregamento e indexação.  
-✅ **Testes com Jest** - Garantindo qualidade e confiabilidade no código.
+---
 
-## 🔗 Explore meus projetos  
-Confira meus trabalhos no repositório e fique à vontade para explorar cada um deles!  
+## 🚀 O que você vai encontrar aqui:
 
-📫 **Conecte-se comigo:** [LinkedIn](https://www.linkedin.com/in/leonardomancilha/) | [GitHub](https://github.com/LeonardoMancilha)
+🔹 Projetos interativos com design responsivo  
+🔹 Aplicações web otimizadas para performance e acessibilidade  
+🔹 Testes automatizados com Jest  
+🔹 Desafios de código com foco em lógica e qualidade  
+🔹 Código limpo, modular e organizado com CSS Modules  
+
+---
+
+## 🛠️ Tecnologias principais:
+
+- **HTML**: Estruturação semântica e acessível  
+- **CSS**: Layouts responsivos e estilização moderna  
+- **JavaScript**: Interatividade e lógica de aplicações  
+- **React**: Componentização e renderização eficiente  
+- **Jest**: Testes unitários para maior confiabilidade  
+- **Boas práticas de SEO e performance**: Lighthouse 100/100  
+
+---
+
+## 📂 Explore meus projetos
+
+Confira meus repositórios, veja o funcionamento dos projetos publicados e acompanhe minha evolução contínua como Dev Frontend.
+
+---
+
+## ✨ Detalhes que fazem a diferença
+- 💡 Modo escuro com interação por teclado: pressione **L** ou **D** para alternar  
+*(Funcionalidade disponível apenas no desktop. Pequeno detalhe que melhora a usabilidade 😉)*
+
+---
+
+## 🧩 Desafios de código
+
+Pratico desafios diários no [LeetCode](https://github.com/LeonardoMancilha/leetcode) e [Codewars](https://github.com/LeonardoMancilha/codewars) para aprimorar lógica, algoritmos e qualidade de código. Essas práticas complementam meus projetos e fortalecem minha formação como desenvolvedor.
+
+📫 **Vamos nos conectar:**  
+[LinkedIn](https://www.linkedin.com/in/leonardomancilha/) | [GitHub](https://github.com/LeonardoMancilha)
