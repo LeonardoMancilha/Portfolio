@@ -37,5 +37,11 @@ Confira meus repositórios, veja o funcionamento dos projetos publicados e acomp
 - 💡 Modo escuro com interação por teclado: pressione **L** ou **D** para alternar  
 *(Funcionalidade disponível apenas no desktop. Pequeno detalhe que melhora a usabilidade 😉)*
 
+---
+
+## 🧩 Desafios de código
+
+Pratico desafios diários no [LeetCode](https://github.com/LeonardoMancilha/leetcode) e [Codewars](https://github.com/LeonardoMancilha/codewars) para aprimorar lógica, algoritmos e qualidade de código. Essas práticas complementam meus projetos e fortalecem minha formação como desenvolvedor.
+
 📫 **Vamos nos conectar:**  
 [LinkedIn](https://www.linkedin.com/in/leonardomancilha/) | [GitHub](https://github.com/LeonardoMancilha)
